@@ -380,6 +380,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+  
 }
 
 .footer-logo img {
@@ -523,4 +524,12 @@ body {
     text-align: center;
     gap: 20px;
   }
+}
+.rasm1{
+    width: 300px;
+  height: auto;
+  transition: transform 0.3s ease; /* yumshoq animatsiya */
+}
+.rasm1:hover{
+    transform: scale(2.0); /* rasm kattalashadi */
 }
